@@ -1,0 +1,14 @@
+
+$colour-primary: #414141;
+$colour-secondary: #989898;
+$colour-tertiary: #7c7c7c;
+$colour-querternary: #4f4f4f;
+$colour-extr: #dbdbdb;
+
+* p,
+* h1,
+* h2,
+* h3,
+* h4 {
+  color: var(--colour-grayscale-black) !important;
+}

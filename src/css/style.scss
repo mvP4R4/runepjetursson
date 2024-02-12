@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+    font-size: $fontsize-regular;
+    color: $colour-grayscale-white;
+    line-height: 21px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  /* Variables */
+$colour-grayscale-white: #f7f7f7;
+$colour-grayscale-gray: #b7b7b7;
+$colour-grayscale-dark: #5c5c5c;
+$colour-grayscale-black: #191919;
+/* */
+$colour-transparent: #ffffff71;
+/* */
+$border-radius: 7px;
+
+  /* Variables */
