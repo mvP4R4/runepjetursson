@@ -2,6 +2,174 @@
 
 ---
 
+<header class="flex-row">
+  <a href="index.html" title="go to home page">
+    <img
+      src="assets/img/Signature_rmpp.png"
+      class="signature"
+      alt="signature of Rune"
+    /></a
+  >
+
+  <nav class="flex-row">
+    <a href="#head" title="Go to home page">HOME</a>
+    <a href="#work" title="Scroll down to work and casestudies">Work</a>
+    <p>⎮</p>
+    <a href="contact.html" title="Go to contact page">Contact</a>
+    <p>//</p>
+    <a href="indanish.html" title="Change language English / Danish">EN/DA</a>
+    <p>//</p>
+  </nav>
+  <div class="burger-lines flex-column">
+    <div class="burger-line line-one"></div>
+    <div class="burger-line line-two"></div>
+    <div class="burger-line line-three"></div>
+  </div>
+  <div class="bg-overlay flex-column">
+    <ul class="navList flex-column">
+      <a
+        href="indanish.html"
+        class="lhva"
+        title="Change language English / Danish"><li>EN/DA</li></a
+      >
+      <a class="lhva" href="index.html"><li>HOME</li></a>
+      <a class="lhva" href="#work"><li>Work</li></a>
+      <a class="lhva" href="contact.html"><li>Contact</li></a>
+    </ul>
+  </div>
+</header>
+
+<aside id="accessibility" class="access-disabled">
+  <!--  -->
+  <div class="swatch-cont flex-column align" title="Open accesibility settings">
+    <img
+      src="assets/svg/swatchbook-solid.svg"
+      alt="Icon of swatchbook"
+      class="icon-swatch"
+    />
+  </div>
+  <div class="access-container flex-row align align">
+    <!-- Animation Timing -->
+    <div class="x-access flex-column align">
+      <img src="assets/svg/x-solid.svg" alt="" class="x-icon" />
+    </div>
+    <div class="animation-container flex-column align ac-bg">
+      <img
+        class="svg-icon svg-access"
+        src="assets/svg/clock-solid.svg"
+        alt="Icon of clock for animation timing settings"
+      />
+      <h3>Animation Timing</h3>
+
+      <div class="flex-row align">
+        <label for="animation-timing">Select animation timing:</label>
+        <select id="animation-timing" name="animation-timing">
+          <option value="normal_time">Normal</option>
+          <option value="slow">Slow</option>
+          <option value="no_animation">None</option>
+        </select>
+        <div class="qustion-cont">
+          <img
+            class="question"
+            src="assets/svg/question-solid.svg"
+            alt="Icon of question mark"
+          />
+          <div class="question-hover flex-column">
+            <p>
+              Change the timing of animations and element movement on the
+              webpage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FontSize -->
+
+    <div class="fontsize-container flex-column align ac-bg">
+      <img
+        class="svg-icon svg-access"
+        src="assets/svg/glasses-solid.svg"
+        alt="Icon of glasses for font size settings"
+      />
+      <h3>Ocular Impairment</h3>
+      <div class="flex-row align">
+        <label for="font-size">Select font size:</label>
+        <select id="font-size" name="font-size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        <div class="qustion-cont">
+          <img
+            class="question"
+            src="assets/svg/question-solid.svg"
+            alt="Icon of question mark"
+          />
+          <div class="question-hover flex-column">
+            <p>
+              Change the font/letter size on the webpage, according to your
+              needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Colour -->
+
+    <div class="colour-scheme-container flex-column align ac-bg">
+      <img
+        class="svg-icon svg-access"
+        src="assets/svg/palette-solid.svg"
+        alt="Icon of palette for colour scheme settings"
+      />
+      <h3>Colour Blindness</h3>
+      <div class="flex-row align">
+        <label for="colour-scheme">Select colour scheme:</label>
+        <select id="colour-scheme" name="colour-scheme">
+          <option value="neutral">No Impairment</option>
+          <option value="achromatomaly">Achromatomaly</option>
+          <option value="achromatopsia">Achromatopsia</option>
+          <option value="deuteranomaly">Deuteranomaly</option>
+          <option value="deuteranopia">Deuteranopia</option>
+          <option value="protanomaly">Protanomaly</option>
+          <option value="protanopia">Protanopia</option>
+          <option value="tritanomaly">Tritanomaly</option>
+          <option value="tritanopia">Tritanopia</option>
+        </select>
+        <div class="qustion-cont">
+          <img
+            class="question"
+            src="assets/svg/question-solid.svg"
+            alt="Icon of question mark"
+          />
+          <div class="question-hover flex-column">
+            <p>
+              Change the colours on the webpage, according to your type of
+              colour blindness.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="apply-button">Apply</button>
+  </div>
+</aside>
+
+<aside class="access-anim flex-row align">
+  <img
+    src="assets/svg/arrow-right-solid.svg"
+    class="p-anim-arrow icon invert"
+    alt="icon of arrow pointing left"
+  />
+  <p>Do you have trouble with</p>
+  <div class="flex-column access-anim-p-cont">
+    <p class="access-anim-p">colours ?</p>
+    <p class="access-anim-p">objects moving too fast ?</p>
+    <p class="access-anim-p">letter sizes ?</p>
+    <p class="access-anim-p"></p>
+  </div>
+</aside>
+
 <style lang="scss">
   @import "../css/style.scss";
 </style>
